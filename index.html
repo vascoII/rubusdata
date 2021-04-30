@@ -49,12 +49,12 @@
 
       <nav id="navbar" class="navbar order-last order-lg-0">
         <ul>
-          <li><a class="nav-link scrollto active" href="#hero">Home</a></li>
-          <li><a class="nav-link scrollto" href="#about">About</a></li>
-          <li><a class="nav-link scrollto" href="#services">Services</a></li>
-          <li><a class="nav-link scrollto" href="#team">Team</a></li>
-          <li><a class="nav-link scrollto" href="#testimonials">Testimonials</a></li>
-          <li><a class="nav-link scrollto" href="#contact">Contact</a></li>
+          <li><a data-langkey="hero" class="nav-link scrollto active" href="#hero">Home</a></li>
+          <li><a data-langkey="about" class="nav-link scrollto" href="#about">About</a></li>
+          <li><a data-langkey="services" class="nav-link scrollto" href="#services">Services</a></li>
+          <li><a data-langkey="team" class="nav-link scrollto" href="#team">Team</a></li>
+          <li><a data-langkey="testimonials" class="nav-link scrollto" href="#testimonials">Testimonials</a></li>
+          <li><a data-langkey="contact" class="nav-link scrollto" href="#contact">Contact</a></li>
         </ul>
         <i class="bi bi-list mobile-nav-toggle"></i>
       </nav><!-- .navbar -->
@@ -66,14 +66,20 @@
         <a href="#" class="linkedin"><i class="bi bi-linkedin"></i></a>
       </div>
 
+      <div class="header-social-links d-flex align-items-center">
+        <img src='./assets/img/flag/if_FR_167740.png' class='language' data-lang='fr' alt='French Flag' />
+        <img src="./assets/img/flag/if_DE_167808.png" class='language' data-lang='pt' alt='German Flag' />
+        <img src="./assets/img/flag/if_GB_167794.png" class='language' data-lang='en' alt='British Flag' />
+      </div>
+
     </div>
   </header><!-- End Header -->
 
   <!-- ======= Hero Section ======= -->
   <section id="hero" class="d-flex flex-column justify-content-center align-items-center">
     <div class="container text-center text-md-left" data-aos="fade-up">
-      <h1>Welcome to <span>Rubus Data</span></h1>
-      <h2>We are a recruitment agency specializing in PHP development, providing development, training and support services in the PHP ecosystem</h2>
+      <h1 data-langkey="welcome">Welcome to <span>Rubus Data</span></h1>
+      <h2 data-langkey="titre">We are a recruitment agency specializing in PHP development, providing development, training and support services in the PHP ecosystem</h2>
     </div>
   </section><!-- End Hero -->
 
@@ -84,32 +90,32 @@
       <div class="container">
 
         <div class="section-title">
-          <h2>What We Do</h2>
-          <p>Our core business is the recruitment of consultants by consultants for our clients</p>
+          <h2 data-langkey="section-title-h2" >What We Do</h2>
+          <p data-langkey="section-title-p">Our core business is the recruitment of consultants by consultants for our clients</p>
         </div>
 
         <div class="row">
           <div class="col-lg-4 col-md-6 d-flex align-items-stretch">
             <div class="icon-box">
               <div class="icon"><i class="bx bxl-dribbble"></i></div>
-              <h4><a href="">Recruit the best potentials</a></h4>
-              <p>We all started one day, the only path that leads to success is the passion for our jobs</p>
+              <h4><a href="" data-langkey="section-title-a-1">Recruit the best potentials</a></h4>
+              <p data-langkey="section-title-a-p-1">We all started one day, the only path that leads to success is the passion for our jobs</p>
             </div>
           </div>
 
           <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-md-0">
             <div class="icon-box">
               <div class="icon"><i class="bx bx-file"></i></div>
-              <h4><a href="">Support for consultants</a></h4>
-              <p>We support our junior consultants in order to best meet the expectations of our customers</p>
+              <h4><a href="" data-langkey="section-title-a-2">Support for consultants</a></h4>
+              <p data-langkey="section-title-a-p-2">We support our junior consultants in order to best meet the expectations of our customers</p>
             </div>
           </div>
 
           <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-lg-0">
             <div class="icon-box">
               <div class="icon"><i class="bx bx-tachometer"></i></div>
-              <h4><a href="">Continuing education</a></h4>
-              <p>Everything we have learned has been taught to us. Now we are proud to be able to pass on our knowledge</p>
+              <h4><a href="" data-langkey="section-title-a-3">Continuing education</a></h4>
+              <p data-langkey="section-title-a-p-3">Everything we have learned has been taught to us. Now we are proud to be able to pass on our knowledge</p>
             </div>
           </div>
 
@@ -127,24 +133,24 @@
             <img src="assets/img/about.jpg" class="img-fluid" alt="">
           </div>
           <div class="col-lg-6 pt-4 pt-lg-0">
-            <h3>About Us</h3>
-            <p>
+            <h3 data-langkey="about">About Us</h3>
+            <p data-langkey="about-p">
               Our company is based above all on diverse and rich expertise, then on the ability to unite around a common project, in this case the passion for IT and open source technologies.
             </p>
             <ul>
-              <li><i class="bx bx-check-double"></i> By using and building on open source software, we see an opportunity to offer our customers a better experience, and better value for money. Some aspects of working with open source benefit us directly, and by allowing us to provide better service, benefit our customers.</li>
-              <li><i class="bx bx-check-double"></i> By tutoring and supporting new potentials we give back to the open source community what others before us have given us.</li>
+              <li data-langkey="about-i-1"><i class="bx bx-check-double"></i> By using and building on open source software, we see an opportunity to offer our customers a better experience, and better value for money. Some aspects of working with open source benefit us directly, and by allowing us to provide better service, benefit our customers.</li>
+              <li data-langkey="about-i-2"><i class="bx bx-check-double"></i> By tutoring and supporting new potentials we give back to the open source community what others before us have given us.</li>
             </ul>
             <div class="row icon-boxes">
               <div class="col-md-6">
                 <i class="bx bx-receipt"></i>
-                <h4>Identify and respond to customer needs</h4>
-                <p>As senior consultants with many years of experience, we are able to understand clients' needs and identify with certainty consultants who can meet them.</p>
+                <h4 data-langkey="about-identify-h">Identify and respond to customer needs</h4>
+                <p data-langkey="about-identify-p">As senior consultants with many years of experience, we are able to understand clients' needs and identify with certainty consultants who can meet them.</p>
               </div>
               <div class="col-md-6 mt-4 mt-md-0">
                 <i class="bx bx-cube-alt"></i>
-                <h4>Allow consultants to flourish</h4>
-                <p>As senior consultants passionate about the IT world, we can even understand the expectations of consultants sharing the same passion.</p>
+                <h4 data-langkey="about-allow-h">Allow consultants to flourish</h4>
+                <p data-langkey="about-allow-p">As senior consultants passionate about the IT world, we can even understand the expectations of consultants sharing the same passion.</p>
               </div>
             </div>
           </div>
@@ -218,7 +224,7 @@
             <div class="count-box">
               <i class="bi bi-emoji-smile"></i>
               <span data-purecounter-start="0" data-purecounter-end="232" data-purecounter-duration="1" class="purecounter"></span>
-              <p>Happy Clients</p>
+              <p data-langkey="count-happy">Happy Clients</p>
             </div>
           </div>
 
@@ -226,7 +232,7 @@
             <div class="count-box">
               <i class="bi bi-journal-richtext"></i>
               <span data-purecounter-start="0" data-purecounter-end="521" data-purecounter-duration="1" class="purecounter"></span>
-              <p>Projects</p>
+              <p data-langkey="count-project">Projects</p>
             </div>
           </div>
 
@@ -234,7 +240,7 @@
             <div class="count-box">
               <i class="bi bi-headset"></i>
               <span data-purecounter-start="0" data-purecounter-end="1463" data-purecounter-duration="1" class="purecounter"></span>
-              <p>Hours Of Support</p>
+              <p data-langkey="count-support">Hours Of Support</p>
             </div>
           </div>
 
@@ -242,7 +248,7 @@
             <div class="count-box">
               <i class="bi bi-people"></i>
               <span data-purecounter-start="0" data-purecounter-end="15" data-purecounter-duration="1" class="purecounter"></span>
-              <p>Hard Workers</p>
+              <p data-langkey="count-workers">Hard Workers</p>
             </div>
           </div>
 
@@ -256,32 +262,32 @@
       <div class="container">
 
         <div class="section-title">
-          <h2>Services</h2>
-          <p>We are able to provide you with precise market knowledge and valuable advice for your next recruitment.</p>
+          <h2 data-langkey="services">Services</h2>
+          <p data-langkey="services-p">We are able to provide you with precise market knowledge and valuable advice for your next recruitment.</p>
         </div>
 
         <div class="row">
           <div class="col-md-6">
             <div class="icon-box">
               <i class="bi bi-briefcase"></i>
-              <h4><a href="#">Technical assistance</a></h4>
-              <p>Technical assistance is an intervention model that most often meets two types of business needs : </p>
-              <p>- A skill (or expertise) that is not held internally</p>
-              <p>- Strengthening a team facing growth or overload of activity</p>
+              <h4><a href="#" data-langkey="services-h-1">Technical assistance</a></h4>
+              <p data-langkey="services-p-1">Technical assistance is an intervention model that most often meets two types of business needs : </p>
+              <p data-langkey="services-p-1-p-1">- A skill (or expertise) that is not held internally</p>
+              <p data-langkey="services-p-1-p-2">- Strengthening a team facing growth or overload of activity</p>
             </div>
           </div>
           <div class="col-md-6 mt-4 mt-lg-0">
             <div class="icon-box">
               <i class="bi bi-card-checklist"></i>
-              <h4><a href="#">Permanent position recrutement</a></h4>
-              <p>We support you throughout the permanent position recrutement process; from needs analysis to post-recruitment follow-up.</p>
+              <h4><a href="#" data-langkey="services-h-2">Permanent position recrutement</a></h4>
+              <p data-langkey="services-p-2">We support you throughout the permanent position recrutement process; from needs analysis to post-recruitment follow-up.</p>
             </div>
           </div>
           <div class="col-md-6 mt-4">
             <div class="icon-box">
               <i class="bi bi-bar-chart"></i>
-              <h4><a href="#">Recruitment Process Outsourcing</a></h4>
-              <p>Total or partial outsourcing of recruitments.</p>
+              <h4><a href="#" data-langkey="services-h-3">Recruitment Process Outsourcing</a></h4>
+              <p data-langkey="services-p-3">Total or partial outsourcing of recruitments.</p>
             </div>
           </div>
           <div class="col-md-6 mt-4">
@@ -315,8 +321,8 @@
       <div class="container">
 
         <div class="section-title">
-          <h2>Team</h2>
-          <p>We support you in all your projects, in France and internationally.</p>
+          <h2 data-langkey="team">Team</h2>
+          <p data-langkey="team-p">We support you in all your projects, in France and internationally.</p>
         </div>
 
         <div class="row">
@@ -324,8 +330,8 @@
             <div class="member">
               <img src="assets/img/team/frederic-delobel.jpg" alt="">
               <h4>Frédéric Delobel</h4>
-              <span>Chief Executive Officer & Co-Founder</span>
-              <p>
+              <span data-langkey="delobel-span">Chief Executive Officer & Co-Founder</span>
+              <p data-langkey="delobel-p">
                 Developer and passionate for over thirty years. During his professional career, he has worked with many companies in a wide variety of industries, ranging from video games, communications to the pharmaceutical and chemical industries, including banking and insurance. His skills as a designer, architect and programmer have gradually led him to provide training on different techniques and development languages, open source eco system
               </p>
               <div class="social">
@@ -341,8 +347,8 @@
             <div class="member">
               <img src="assets/img/team/fab.jpg" alt="">
               <h4>Fabrice Da Silva</h4>
-              <span>TBD</span>
-              <p>
+              <span data-langkey="dasilva-span">TBD</span>
+              <p data-langkey="dasilva-p">
                 who knows ?
               </p>
               <div class="social">
@@ -358,8 +364,8 @@
             <div class="member">
               <img src="assets/img/team/dharar.jpg" alt="">
               <h4>Dharar Chehidi</h4>
-              <span>Responsable nearshore Tunisie</span>
-              <p>
+              <span data-langkey="hero">Responsable nearshore Tunisie</span>
+              <p data-langkey="hero">
                 With more than 6 years of experience in the sector, Dharar provide you with all his skills and his know-how in this specific and very dynamic sector.
               </p>
               <div class="social">
@@ -381,8 +387,8 @@
       <div class="container">
 
         <div class="section-title">
-          <h2>Testimonials</h2>
-          <p>Our core business is the recruitment of consultants by consultants for our clients</p>
+          <h2 data-langkey="testimonials">Testimonials</h2>
+          <p data-langkey="testimonials-p">Our core business is the recruitment of consultants by consultants for our clients</p>
         </div>
 
         <div class="testimonials-slider swiper-container" data-aos="fade-up" data-aos-delay="100">
@@ -465,7 +471,7 @@
       <div class="container">
 
         <div class="section-title">
-          <h2>Contact</h2>
+          <h2 data-langkey="Contact">Contact</h2>
           <p>Magnam dolores commodi suscipit eius consequatur ex aliquid fuga</p>
         </div>
 
@@ -519,9 +525,9 @@
               <div class="my-3">
                 <div class="loading">Loading</div>
                 <div class="error-message"></div>
-                <div class="sent-message">Your message has been sent. Thank you!</div>
+                <div class="sent-message" data-langkey="Name">Your message has been sent. Thank you!</div>
               </div>
-              <div class="text-center"><button type="submit">Send Message</button></div>
+              <div class="text-center"><button type="submit" data-langkey="Name">Send Message</button></div>
             </form>
           </div>
 
@@ -551,7 +557,7 @@
           </div>
 
           <div class="col-lg-2 col-md-6 footer-links">
-            <h4>Useful Links</h4>
+            <h4 data-langkey="hero">Useful Links</h4>
             <ul>
               <li><i class="bx bx-chevron-right"></i> <a href="#">Home</a></li>
               <li><i class="bx bx-chevron-right"></i> <a href="#">About us</a></li>
@@ -562,7 +568,7 @@
           </div>
 
           <div class="col-lg-3 col-md-6 footer-links">
-            <h4>Our Services</h4>
+            <h4 data-langkey="hero">Our Services</h4>
             <ul>
               <li><i class="bx bx-chevron-right"></i> <a href="#">Web Design</a></li>
               <li><i class="bx bx-chevron-right"></i> <a href="#">Web Development</a></li>
@@ -573,8 +579,8 @@
           </div>
 
           <div class="col-lg-4 col-md-6 footer-newsletter">
-            <h4>Join Our Newsletter</h4>
-            <p>Tamen quem nulla quae legam multos aute sint culpa legam noster magna</p>
+            <h4 data-langkey="hero">Join Our Newsletter</h4>
+            <p data-langkey="hero">Tamen quem nulla quae legam multos aute sint culpa legam noster magna</p>
             <form action="" method="post">
               <input type="email" name="email"><input type="submit" value="Subscribe">
             </form>
@@ -621,7 +627,7 @@
 
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>
-
+  <script src='assets/js/html5.internationalization.js' ></script>
 </body>
 
 </html>
