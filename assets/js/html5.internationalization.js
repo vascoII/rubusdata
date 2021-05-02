@@ -18,7 +18,7 @@ function switchLanguage(language){
     xhttp.send();
 }
 function processLangDocument(){
-    var tags = document.querySelectorAll('span,img,a,label,li,option,h1,h2,h3,h4,h5,h6');
+    var tags = document.querySelectorAll('span,img,a,label,li,option,h1,h2,h3,h4,h5,h6,p');
     Array.from(tags).forEach(function(value, index){
         var key = value.dataset.langkey;
         if(langDocument[key]) value.innerText = langDocument[key];
