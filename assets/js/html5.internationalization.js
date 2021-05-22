@@ -1,6 +1,7 @@
 var languages = Array.from(document.getElementsByClassName('language'));
 var xhttp = new XMLHttpRequest();
 var langDocument = {};
+switchLanguage('fr');
 languages.forEach(function(value, index){
     languages[index].addEventListener('click', function(){
         switchLanguage(this.dataset.lang);
